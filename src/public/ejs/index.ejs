@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DataTables botões export</title>
+    <%- include partials/base-styles.ejs %>
+</head>
+<body>
+    <form id="teste">
+        <input type="hidden" name="store" value=3253841 />
+        <table id="example" class="display" class="responsible-table striped bordered table-striped-collapse">
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Estoque</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th>id</th>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Estoque</th>
+                    <th>Preço</th>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    <button class="reload">Carregar Mais</button>
+    <%- include partials/base-scripts.ejs %>
+    <script src="js/custom/index.js"></script>
+</body>
+</html>

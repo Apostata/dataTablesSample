@@ -1,0 +1,16 @@
+{
+  "name": "datatables",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "server": "nodemon --watch ../public  --inspect src/server/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
